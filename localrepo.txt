@@ -1,4 +1,5 @@
 LOCAL WORKING
+**************
 working tree
 staging area
 local repo
@@ -10,3 +11,46 @@ modify
 cherry pick
 rebase
 stash
+
+***************
+setup local repository
+***************
+Git to maintain history needs to know your 
+username
+git config --global user.name "koticoder"
+email id
+git config --global user.email "abc@gmail.com"
+
+***************
+CREATE A NEW FOLDER AND INITIALIZE A GET REPOSITORY
+***************
+git init
+
+***************
+CREATE A NEW FILE
+***************
+touch 1.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
