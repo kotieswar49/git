@@ -105,9 +105,32 @@ git commit -m "Make some super-stable changes to main"
 git merge new-feature
 git branch -d new-feature
 ***********************************
+*************
+GIT REBASE
+*************
 
+****************
+GIT CHERRY PICK
+****************
+>cherry pick is the act of picking a commit from a branch and applying it to another
+>usefull for undoing changes
+>if a commit is accidently made to the wrong branch
+>you can switch to the correct branch and cherry pick the commit to where it should belong
+		//git cherry-pick commitSha
 
-
+***************
+GIT STASH
+***************
+>git stash temporarily saves changes you have made to your working directory
+	//git stash
+>so you can work on other things 
+>when you are comfortable you can revoke and work on it
+	//git stash pop    or //git stash pop stash@{2}    if multiple stashes
+	//git stash apply
+>to stash untracked files too
+	//git stash -u
+>can create multiple stashes and view them 
+	// git stash list
 
 
 
