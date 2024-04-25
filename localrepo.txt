@@ -47,9 +47,37 @@ touch 1.txt
 means you want to delete the changes made from last commit
 	//git reset --hard
 >check the git log
-	
+*********************
+*********************
+GIT TREATS CHANGES ONLY WHEN THEY ARE MADE IN FILES
+EMPTY FOLDERS ARENOT CONSIDERED AS CHANGES IN GIT
+*********************
 
 
+ADDING CHANGES TO WORKING TREE TO STAGING AREA
+>add all changes in complete repo //git add -A
+>add specific change // git add <path>
+>add all changes wrt to current directory // git add .
+>add only modified changes // git add -u
+*********************	
+***********
+BRANCHES
+***********
+>branch represent an independent line of development
+>you can think as a way to request a brand new working dir,staging area, project history
+>new commits are recorded in the history for the current branch
+>by default git will have branch called as main
+>branch always points to latest commit
+>changes from one branch can be merged to other branch
+************
+COMMANDS
+************
+>list all branches in you repositoy // git branch
+>create new branch but not checkout to new branch // git branch <branch>
+>deleting branch //git branch -d <branch>
+>force delete branch if it has unmerged changes // git branch -D <branch>
+>rename the current branch // git branch -m <branch>
+>list all remote branches // git branch -a
 
 
 
