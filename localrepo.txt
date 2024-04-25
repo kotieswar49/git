@@ -80,6 +80,14 @@ COMMANDS
 >list all remote branches // git branch -a
 
 
+****************
+GIT MERGE
+****************
+>merging is git's way of putting a forked history back together again
+>git merge will combine multiple sequences of commits into one unified history
+>most frequent usecase git merge is used to combine two branches
+>merge commits are unique against other commits they have two parent commits
+
 
 
 
