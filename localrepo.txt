@@ -31,8 +31,23 @@ CREATE A NEW FILE
 ***************
 touch 1.txt
 
-
-
+**********************
+**********************
+>created two files 
+>worked in single file
+>added both files to staged area
+>but dont want to commit the unused file
+ 1. you can add only the used file staged area
+ 2. once you added all files you can restore the unused file from staged area
+	//git restore --staged <filename>
+>if you see the git status the unused file will be untracked
+>now to remove all untracked files
+	//git clean -fd
+>to remove all changes in working tree 
+means you want to delete the changes made from last commit
+	//git reset --hard
+>check the git log
+	
 
 
 
