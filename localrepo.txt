@@ -1,0 +1,12 @@
+LOCAL WORKING
+working tree
+staging area
+local repo
+commit
+branch
+tag
+finging changes
+modify
+cherry pick
+rebase
+stash
